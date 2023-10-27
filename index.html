@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Opt-Out</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            user-select: none; 
+        }
+
+        .container {
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .marathi {
+            font-size: 22px;
+            font-family: 'Mukta', sans-serif;
+            color: #0039a6; /* Green color */
+        }
+        #contactNumber {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+
+<script>
+    // Disable right-click and developer menu
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener('keydown', event => {
+        if (event.key === 'F12' || event.ctrlKey && event.shiftKey && event.key === 'I' || event.ctrlKey && event.shiftKey && event.key === 'C') {
+            event.preventDefault();
+        }
+    });
+
+
+    
+</script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/jardhan/Maharashtra-Bhandar-Opt-out/main/MBLOGO.jpeg" alt="Maharashtra Bhandar">
+        <div class="content">
+            <p>
+                Your number has been removed from the list of WhatsApp numbers associated with <b>Maharashtra Bhandar, Nashik</b>. You will not receive any further messages from us. <br>You can contact us on WhatsApp at: <tel id="contactNumber">7588136554</tel> or visit at: <a href="http://www.maharashtrabhandar.com/" target="_blank">maharashtrabhandar.com</a>. <br>Thank you!</p>
+            </p>
+                
+            <p class="marathi">
+                आपला नंबर <b>महाराष्ट्र भंडार, नाशिक</b> यांच्या 
+                whatsapp नंबर च्या यादीतून वगळला आहे.
+                आता  महाराष्ट्र भांडार कडून whatsapp संदेश 
+                तुम्हाला येणार नाहीत. 
+            </br>तुम्ही आम्हाला  <tel id="contactNumber">7588136554</tel> या नंबर ला whatsapp संदेश पाठवू  शकता किंवा 
+                आमची वेबसाइट बघू शकता.<a href="http://www.maharashtrabhandar.com/" target="_blank">maharashtrabhandar.com</a>
+                <br>धन्यवाद
+
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
